@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins';
 }
-/* top cection */
+/* top section */
 header{
     display: flex;
     justify-content: center;
@@ -100,6 +100,9 @@ h3{
     display: flex;
     align-items: center;
 }
+.all img{
+    margin-left: 10px;
+}
 /* footer part  */
 footer{
     background-color: #161616;
@@ -125,5 +128,45 @@ hr{
 .foot-p{
     color: #B9B9B9;
     size: 16px;
-
 }
+.foot-icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.foot-icon a{
+    color: white;
+    margin-left: 10%;
+}
+
+/* second page  */
+
+/* middle section  */
+
+
+.matches{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.match{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 0px;
+    width: 315px;
+    height: 245px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+}
+.match-vs{
+    display: flex;
+}
+.match-vs img{
+    width: 95px;
+    height: 55px;
+    margin: 0px 10px;    
+}
+
