@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins';
+}
+/* top cection */
+header{
+    display: flex;
+    justify-content: center;
+}
+.top-banner{
+    background-color: #161616;
+    border-radius: 20px;
+    display: flex;
+    width: 1321px;
+    height: 646px;
+}
+.top-ban-des{
+    width: 50%;
+    margin-left: 100px;
+}
+.top-ban-pic{
+    width: 50%;
+}
+.top-ban-pic img{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
+.top-ban-des a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #DD0000;
+    padding: 10px 15px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+}
+.top-p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* middle section  */
+section{
+    width: 1321px;
+    margin-top: 130px;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.link-sec{
+    background-color: #161616;
+    margin-left: 90px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    border-radius: 5px;
+}
+.link-sec a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 200px;
+    height: 64px;
+    margin-left: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 5px;
+}
+.transfers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 24px;
+}
+.transfer{
+    width: 312px;
+    height: 362px;
+    border-radius: 13px;
+    border: 2px solid #ededed;
+}
+.trans-info{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h3{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 7px;
+    width: 80px;
+}
+.all{
+    display: flex;
+    align-items: center;
+}
+/* footer part  */
+footer{
+    background-color: #161616;
+    margin-top: 60px;
+}
+h2{
+    text-align: center;
+    color: white;
+    size: 40px;
+    padding-top: 130px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 90%;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 130px;
+}
+.foot-p{
+    color: #B9B9B9;
+    size: 16px;
+
+}
